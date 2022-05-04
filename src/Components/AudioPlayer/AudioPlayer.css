@@ -83,38 +83,6 @@
     align-items: center;
 }
 
-.player-controls-item-favorite {
-    display: inline-flex;
-    font-size: 30px;
-    padding: 5px;
-    margin-bottom: 10px;
-    color: #acb8cc;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-    filter: opacity(0.2) drop-shadow(0 0 0 rgb(255, 255, 255));
-}
-
-.player-controls-item-favorite:hover {
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(160, 54, 54));
-}
-
-.player-controls-item-favorite-clicked {
-    filter: opacity(0.4) drop-shadow(0 0 0 rgb(160, 54, 54));
-}
-
-.icon-favorite {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    color: blue;
-}
-
 .player-controls-item {
     display: inline-flex;
     font-size: 30px;
@@ -133,24 +101,6 @@
 
 .player-controls-item:hover {
     filter: opacity(0.4) drop-shadow(0 0 0 rgb(225, 0, 255));
-}
-
-.player-controls-item::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    color: #fff;
-    transform: scale(0.5);
-    opacity: 0;
-    box-shadow: 0px 5px 10px 0px rgb(76 70 124 / 20%);
-    transition: all 0.3s ease-in-out;
-    transition: all 0.4s cubic-bezier(0.35, 0.57, 0.13, 0.88);
-}
-
-.player-controls-item:hover {
-    opacity: 0,7;
 }
 
 .player-controls-item-play {
@@ -226,10 +176,6 @@
     background-color: #d0d8e6;
     display: inline-block;
     border-radius: 10px;
-}
-
-.progress-current {
-    width: 0%;
 }
 
 .progress-time {
